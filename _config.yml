@@ -16,10 +16,10 @@ darkmode: never
 
 # Social links
 #twitter_username:
-github_username:  Nanxy-Tran
+github_username:  nanxy-tran
 # stackoverflow_username:
 # dribbble_username:
-# facebook_username:
+facebook_username: ahxtpn
 # flickr_username:
 #instagram_username:
 linkedin_username: quoc-thinh-dang-38319a195
@@ -43,8 +43,7 @@ about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, I'm Thinh, a self-taught developer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
   I worked with mobile stuffs, but able to find and join new area. Enjoy coding and coffee, but not threshold or release.
-  Currently I'm learning more about Javascript frameworks in depth and
-  I am most skilled in: <mark>ReactJS</mark> and <mark>Auto chess</mark>
+  Currently I'm learning more about Javascript frameworks in depth and most skilled in: <mark>ReactJS</mark>
 
 content:
   - title: ReactJS/Native developer # Title for the section
@@ -60,8 +59,8 @@ content:
           #   icon: fab fa-github
         description: |  # this will include new lines to allow paragraphs
           - <b>Language</b>: <mark>Javascript</mark> <mark>Python</mark>
-          - <b>Library</b>: <mark>ReactJS</mark> <mark>React Native</mark> <mark>Redux</mark> <mark>Redux-Saga</mark>
-          - <b>Framework</b>: <mark>Django</mark>
+          - <b>Library</b>: <mark>ReactJS</mark> <mark>Redux</mark> <mark>Redux-Saga</mark>
+          - <b>Framework</b>: <mark>React Native</mark> <mark>Django</mark>
           - <b>Others</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark>
 
   - title: Experience # Title for the section
@@ -106,12 +105,10 @@ content:
 
   - title: A Little More About Me
     layout: text
-    icon: fab fa-github
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Auto-chess, chess and books ♛♚♝
-      - Reading clean code with iced milk coffee.
-      - Learn and write test!.
+      - Shrimp keeping.
 
 # Footer
 footer_show_references: true
