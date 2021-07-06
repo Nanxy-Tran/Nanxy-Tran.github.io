@@ -4,4 +4,46 @@
 
 @import 'modern-resume-theme';
 body {
-  background: #b8e5fc; }
+  background: #F8F5F1;
+  color: #343F56;}
+
+.button--sacnite:hover {
+    color: #387C6D;
+}
+
+.button--sacnite:hover::before {
+    box-shadow: inset 0 0 0 2px #387C6D;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+header {
+  color: #387C6D
+}
+
+.header-contianer {
+  margin-top:50px;
+  color: #387C6D
+}
+
+.header-right {
+  text-align: right;
+  color: #387C6D
+}
+
+.header-left {
+  margin-top: 30px;
+  color: #387C6D;
+
+  @media print {
+    margin-top: 0px;
+  }
+}
+
+.header-right p {
+  color: #387C6D;
+  font-size: 1.6rem;
+  text-align: right;
+}
+h3, h4 {
+  color: #387C6D
+}
