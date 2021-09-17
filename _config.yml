@@ -38,12 +38,12 @@ linkedin_username: quoc-thinh-dang-38319a195
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-about_title: About me
-about_profile_image: images/avatar.jpg
+#about_title: About me
+#about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, I'm Thinh, a self-taught developer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
   I worked with mobile stuffs, but able to find and join new area. Enjoy coding and coffee, but not threshold or release.
-  Currently I'm learning more about Javascript frameworks in depth and most skilled in: <mark>ReactJS</mark>
+  Currently I'm learning more about Javascript frameworks in depth and most skilled in ReactJS
 
 content:
   - title: ReactJS/Native developer # Title for the section
@@ -58,10 +58,10 @@ content:
             icon: fab fa-github
           #   icon: fab fa-github
         description: |  # this will include new lines to allow paragraphs
-          - <b>Language</b>: <mark>Javascript</mark> <mark>Python</mark>
-          - <b>Library</b>: <mark>ReactJS</mark> <mark>Redux</mark> <mark>Redux-Saga</mark>
-          - <b>Framework</b>: <mark>React Native</mark> <mark>Django</mark>
-          - <b>Others</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark>
+          - <b>Language</b>: <mark>Javascript</mark> <mark>Swift</mark>
+          - <b>Library</b>: <mark>ReactJS</mark> <mark>Redux</mark> <mark>Redux-Saga</mark> <mark>Tailwindcss</mark>
+          - <b>Framework</b>: <mark>React Native</mark> <mark>NextJS</mark>
+          - <b>Others</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark> <mark>Prisma</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -106,9 +106,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Auto-chess, chess and books ♛♚♝
-      - Shrimp keeping.
+      - I enjoy learning both tech and non-tech stuffs to find the balance point of life. Working and enjoy should come together.
+      You can visit my <mark>Blog</mark> [here](https://beslow.vercel.app), I created it to share my thought and my experience.
+      - My #2 hobby is aquascape 🐠 and shrimp 🦐 keeping.
 
 # Footer
 footer_show_references: true
@@ -123,3 +123,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+]
