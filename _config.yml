@@ -25,7 +25,7 @@ facebook_username: ahxtpn
 linkedin_username: quoc-thinh-dang-38319a195
 # xing_username:
 # pinterest_username:
-# youtube_username:
+# youtube_username: user=dw1YeQl_592n78flMMvdNQ
 # googleplus_username:
 # orcid_username: 0000-0000-0000-0000
 
@@ -38,11 +38,11 @@ linkedin_username: quoc-thinh-dang-38319a195
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-#about_title: About me
+about_title: About me 😎
 #about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm Thinh, a self-taught developer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
-  I worked with mobile stuffs, but able to find and join new area. Enjoy coding and coffee, but not threshold or release.
+  It's nice to meet you, I'm Thinh, a self-taught developer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
+  I worked with mobile stuffs and web, but able to find and join new area. Enjoy coding and coffee, but not threshold or release.
   Currently I'm learning more about Javascript frameworks in depth and most skilled in ReactJS
 
 content:
@@ -58,10 +58,12 @@ content:
             icon: fab fa-github
           #   icon: fab fa-github
         description: |  # this will include new lines to allow paragraphs
-          - <b>Language</b>: <mark>Javascript</mark> <mark>Swift</mark>
-          - <b>Library</b>: <mark>ReactJS</mark> <mark>Redux</mark> <mark>Redux-Saga</mark> <mark>Tailwindcss</mark>
+          - <b>Language</b>: <mark>Javascript</mark>, <mark>Typescript</mark>, <mark>Python</mark>
+          - <b>Library</b>: <mark>ReactJS</mark> <mark>VueJS</mark> <mark>Tailwindcss</mark>
           - <b>Framework</b>: <mark>React Native</mark> <mark>NextJS</mark>
-          - <b>Others</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark> <mark>Prisma</mark>
+          - <b>Other</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark> <mark>Prisma</mark> <mark>SQL</mark>
+          - <b>Style</b>: *prefer* <mark>Clean code</mark>, <mark>Functional programming</mark>, <mark>Webstorm</mark> and <mark>Automation</mark>.
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -69,7 +71,7 @@ content:
       - layout: left
         title: |
           Aspire Financial Technologies Pte. Ltd.
-          <p><i>#1 Business Account in Southeast Asia</i><p>
+          <p><i>All-in-one finance OS in Southeast Asia</i><p>
         link: aspireapp.com
         sub_title: Mobile developer
         caption: March 2020 - Present
@@ -79,8 +81,7 @@ content:
             - Devops stuffs for easier <mark>Github</mark> experience
             - Working with RESTful API
             - Refactoring and review code
-            - Tech stack: <mark>React Native</mark> , <mark>Laravel</mark> , <mark>Appcenter</mark> ,
-            <mark>Testflight</mark>
+            - Tech stack: <mark>React Native</mark> , <mark>Laravel</mark> , <mark>Appcenter</mark> , <mark>VueJS</mark>
             - Team scale: ~10 people
 
   - title: Education # Title for the section
@@ -107,8 +108,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - I enjoy learning both tech and non-tech stuffs to find the balance point of life. Working and enjoy should come together.
-      You can visit my <mark>Blog</mark> [here](https://beslow.vercel.app), I created it to share my thought and my experience.
-      - My #2 hobby is aquascape 🐠 and shrimp 🦐 keeping.
+      You can visit my <mark>Blog</mark> [here](https://beslow.vercel.app){:target="_blank" rel="noopener"}, I created it to share my thought and my experience.
+      - My #2 hobby is aquascape 🐠 and shrimp keeping 🦐
 
 # Footer
 footer_show_references: true
