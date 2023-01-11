@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: QUOC THINH DANG
-title: ReactJS Developer
+title: Software Engineer
 email: eeit104@gmail.com
 phone: (+84) 903623296
 
@@ -19,7 +19,7 @@ darkmode: never
 github_username:  nanxy-tran
 # stackoverflow_username:
 # dribbble_username:
-facebook_username: ahxtpn
+#facebook_username: ahxtpn
 # flickr_username:
 #instagram_username:
 linkedin_username: quoc-thinh-dang-38319a195
@@ -41,16 +41,16 @@ linkedin_username: quoc-thinh-dang-38319a195
 about_title: About me 😎
 #about_profile_image: images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
-  It's nice to meet you, I'm Thinh, a self-taught developer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
-  I worked with mobile stuffs and web, but able to find and join new area. Enjoy coding and coffee, but not threshold or release.
-  Currently I'm learning more about Javascript frameworks in depth and most skilled in ReactJS
+  It's nice to meet you, I'm Thinh, a software engineer, used to be a police officer but then drop out when I realized that programming is the most suitable career.
+  Working with different technologies in application development process, but strongly impressed by Backend domain. Enjoy coding and see how things glued together, currently
+  I'm working with Laravel, ReactJS, a little bit Nodejs and Apache. 
 
 content:
-  - title: ReactJS/Native developer # Title for the section
+  - title: Software Engineer # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: My stack
+        title: My stacks
         link: github.com/Nanxy-Tran
         # link_text: Project Website
         additional_links:
@@ -58,11 +58,11 @@ content:
             icon: fab fa-github
           #   icon: fab fa-github
         description: |  # this will include new lines to allow paragraphs
-          - <b>Language</b>: <mark>Javascript</mark>, <mark>Typescript</mark>, <mark>Python</mark>
-          - <b>Library</b>: <mark>ReactJS</mark> <mark>VueJS</mark> <mark>Tailwindcss</mark>
-          - <b>Framework</b>: <mark>React Native</mark> <mark>NextJS</mark>
-          - <b>Other</b>: <mark>Rest</mark> <mark>Appcenter</mark> <mark>GithubActions</mark> <mark>Prisma</mark> <mark>SQL</mark>
-          - <b>Style</b>: *prefer* <mark>Clean code</mark>, <mark>Functional programming</mark>, <mark>Webstorm</mark> and <mark>Automation</mark>.
+          - <b>Language</b>: <mark>Javascript</mark>, <mark>Typescript</mark>, <mark>PHP</mark>, <mark>GO</mark>
+          - <b>Library</b>: <mark>ReactJS</mark> <mark>ExpressJS</mark> <mark>GinGonic</mark> <mark>Tailwindcss</mark> <mark>MaterialUI</mark>
+          - <b>Framework</b>: <mark>Laravel</mark> <mark>NextJS</mark> 
+          - <b>Other</b>: <mark>Appcenter</mark> <mark>GithubActions</mark> <mark>Prisma</mark> <mark>MySQL</mark>
+          - <b>Style</b>: *prefer* <mark>Clean code</mark>, <mark>Functional programming</mark>, <mark>PHPStorm</mark> and <mark>Automation</mark>.
 
 
   - title: Experience # Title for the section
@@ -74,7 +74,7 @@ content:
           <p><i>All-in-one finance OS in Southeast Asia</i><p>
         link: aspireapp.com
         sub_title: Mobile developer
-        caption: March 2020 - Present
+        caption: March 2020 - Dec 2021
         description: | # this will include new lines to allow paragraphs
           The product of banking, provide money service to SMEs by connecting the dots
             - Maintain and implements features of transfer/receive money, and its eco-services
@@ -84,32 +84,73 @@ content:
             - Tech stack: <mark>React Native</mark> , <mark>Laravel</mark> , <mark>Appcenter</mark> , <mark>VueJS</mark>
             - Team scale: ~10 people
 
+      - layout: left
+        title: |
+          Aspire Financial Technologies Pte. Ltd.
+          <p><i>All-in-one finance OS in Southeast Asia</i><p>
+        link: aspireapp.com
+        sub_title: Senior software engineer
+        caption: Dec 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+          The product of banking, provide money service to SMEs by connecting the dots
+            - Maintain and implements key features of transfer/receive money, Bill, Invoice
+            - Devops stuffs reducing repeated tasks
+            - Refactoring and review code, ensure coding quality with tools (Sentry, Sonarqube)
+
+  - title: Side projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: |
+          E-Commerce Thuan Phong Pharmacy
+          <p><i>B2B Pharmacy e-commerce in Vietnam</i><p>
+        sub_title: Full-stack
+        caption: Jun 2022 - Dec -2022
+        description: | # this will include new lines to allow paragraphs
+          Re-new the system due to the deprecated one.
+            - Planning and implementing from scratch with ReactJS and Laravel Inertia
+            - Integrate with third-party for Payment service, Shipping service, Geolocation,...
+            - Deployment and config for Apache, SSR
+            - Self-managed and team management, defining roadmap and helping teammates archive defined goals
+            - Team scale: ~4 people
+
+      - layout: left
+        title: |
+          Project scanner
+          <p><i>CLI by Golang for scanning source code</i><p>
+        additional_links:
+          - title: Contributor-scan
+            icon: fab fa-github
+            url:  https://github.com/Nanxy-Tran/contributor_scan
+        sub_title: Simple tool by Golang
+        caption: Jun 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+          This small tool checking project repository with one-line command using recursive and channels
+            - Generate github owner file for auto requesting PR reviewer    
+            - Checking total project lines
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: People’s Security University
-        caption: 2014 - 2018
-        sub_title: BSc of Law
-        description: | # this will include new lines to allow paragraphs
-          I had been learning 4 years at this school to be an officer. Although, I realized this was not my suitable career,
-          I never reget about this decision. After all, university is a place teach you to learn, shape your characteristics in order
-          to deal with world of rapid change out there.
-
-      - layout: left
         title: Self-taught
         caption: 2019 - Present
         description: | # this will include new lines to allow paragraphs
-          Struggling at first is envitable when I meet programming. There were hundles of terminologies that I did not even know what they are.
-          But reading and trying taught me a lots, and I grapsed the main idea of how computer works. After given an opportunity to join a fintech startup
-          I learnt many things and gradually acknowledged of what I have read before.
+            Struggling at first is inevitable when I meet programming. There were hundreds of terminologies that I did not even know what they are.
+            But reading and trying taught me a lots, acquired the main idea of how computer works. After given an opportunity to join a fintech startup
+            I learnt many things and gradually acknowledged of what I have read before.
+
+      - layout: left
+        title: University of LAW (ULAW), Ho Chi Minh, Vietnam
+        caption: 2014 - 2018
+        sub_title: BSc of Law
+
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       - I enjoy learning both tech and non-tech stuffs to find the balance point of life. Working and enjoy should come together.
-      You can visit my <mark>Blog</mark> [here](https://beslow.vercel.app){:target="_blank" rel="noopener"}, I created it to share my thought and my experience.
-      - My #2 hobby is aquascape 🐠 and shrimp keeping 🦐
 
 # Footer
 footer_show_references: true
